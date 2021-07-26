@@ -1,0 +1,33 @@
+.todo-list {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 2.5rem;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+.todo-list li {
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.todo-list i {
+  font-size: 1.8rem;
+  color: purple;
+  cursor: pointer;
+}
+.todo-list i:hover {
+  color: red;
+}
